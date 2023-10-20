@@ -1,4 +1,4 @@
-const URL= process.env.BACKEND_URL ||  "http://localhost:3900/api/";
+const URL= process.env.REACT_APP_BACKEND_URL ||  "http://localhost:3900/api/";
 
 var Global = {
 
