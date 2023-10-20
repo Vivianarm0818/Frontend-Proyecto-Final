@@ -1,6 +1,8 @@
+const URL= process.env.BACKEND_URL ||  "http://localhost:3900/api/";
+
 var Global = {
 
-	url: "http://localhost:3900/api/"
+	url: URL
 
 }
 
